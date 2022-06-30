@@ -1,0 +1,17 @@
+  name: "iptables"
+  version: "1.1"
+  slug: "iptables"
+  description: "Add-on to help manage user iptable rules"
+  arch: 
+    - armhf
+    - armv7
+    - aarch64
+    - amd64 
+    - i386
+  startup: application
+  boot: auto
+  host_network: true
+  privileged: NET_ADMIN
+  init: false
+  options: {}
+  schema: {}
