@@ -1,6 +1,0 @@
-build_from:
-  aarch64: ghcr.io/hassio-addons/apline-base/aarch64:stable
-  amd64: ghcr.io/hassio-addons/apline-base/amd64:stable
-  armhf: ghcr.io/hassio-addons/alpine-base/armhf:stable
-  armv7: ghcr.io/hassio-addons/alpine-base/armv7:stable
-  i386: ghcr.io/hassio-addons/alpine-base/i386:stable

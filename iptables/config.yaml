@@ -11,7 +11,8 @@
   startup: application
   boot: auto
   host_network: true
-  privileged: NET_ADMIN
+  privileged: 
+    - NET_ADMIN
   init: false
   options: {}
   schema: {}

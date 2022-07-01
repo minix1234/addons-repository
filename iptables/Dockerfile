@@ -1,5 +1,5 @@
 ARG BUILD_ARCH
-FROM homeassistant/${BUILD_ARCH}-base:latest
+FROM ghcr.io/hassio-addons/base:12.1.0
 
 #ARG BUILD_ARCH
 #ARG TAILSCALE_VERSION="1.12.1"
